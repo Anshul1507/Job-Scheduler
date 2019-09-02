@@ -1,4 +1,4 @@
-package com.practice.jobscheduler;
+package com.practice.screenonoffreceiver;
 
 import org.junit.Test;
 

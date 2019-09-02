@@ -1,9 +1,8 @@
-package com.practice.jobscheduler;
+package com.practice.screenonoffreceiver;
 
 import android.content.Context;
-
-import androidx.test.InstrumentationRegistry;
-import androidx.test.runner.AndroidJUnit4;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,8 +19,8 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.practice.jobscheduler", appContext.getPackageName());
+        assertEquals("com.practice.screenonoffreceiver", appContext.getPackageName());
     }
 }
